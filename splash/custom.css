@@ -1,0 +1,151 @@
+.button-not-active {
+    opacity: 50%;
+}
+
+.btn-blue:focus {
+    background:#5dbcd2 !important;
+    color: white;
+}
+
+.japan {
+    background-image: url("/japan.jpeg"), linear-gradient(rgba(255,255,255,0.75),rgba(255, 255, 255, 0.75));
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+   
+}
+
+.hawaii {
+    background-image: url("/hawaii.png"), linear-gradient(rgba(255,255,255,0.75),rgba(255, 255, 255, 0.75));
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+   
+}
+
+
+.singapore {
+    background-image: url("/singapore.png"), linear-gradient(rgba(255,255,255,0.75),rgba(255, 255, 255, 0.75));
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+   
+}
+
+.magical-gradient {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right,var(--gradient-color-stops));
+    --gradient-from-color: #f6ad55;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(246, 173, 85, 0));
+    --gradient-via-color: #f56565;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+    --gradient-to-color: #ed64a6;
+    display: inline-block;
+}
+
+.leading-none {
+    line-height: 1.2;
+}
+.text-4xl {
+    font-size: 4rem;
+}
+
+.text-3xl {
+    font-size: 3rem;
+}
+
+.text-2xl {
+    font-size: 2rem;
+}
+
+
+.font-extrabold {
+    font-weight: 800;
+}
+
+.navbar-text {
+    color: black;
+}
+
+.nav-link {
+    color: grey;
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 0.75);
+}
+
+.btn {
+    border-radius: 5rem !important;
+}
+
+.btn-blue {
+      background:#5dbcd2;
+      color: white;
+}
+
+.btn-blue:hover {
+    background:#2b7a8c;
+    color: white;
+}
+
+.img-bottom {
+    margin-top: auto;
+}
+
+.btn-success {
+    background-color: #0cae58;
+    border-color:  #0cae58;
+}
+
+.popup-content {
+    background: transparent !important;
+    border: none !important;
+}
+
+.carousel-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-btn {
+    margin-left: 6px;
+    margin-right: 6px;
+    font-size: xx-large;
+}
+
+.header-btn:focus{
+    background-color: #0cae58;
+    border-color:  #0cae58;
+}
+
+.sub-header-btn {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.gifs{
+    max-height: 320px;
+    max-width: 148px;
+}
+
+.button {
+    border: none;
+    border-radius: 50px;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 40px;
+  cursor: pointer;
+  }
+
+  .button5 {background-color: #555555;} /* Black */
+

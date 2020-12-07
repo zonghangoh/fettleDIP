@@ -1,0 +1,21 @@
+{
+  "name": "learn-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "jsdom": "^16.4.0",
+    "next": "^10.0.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-lottie": "^1.2.3",
+    "reactjs-popup": "^2.0.4",
+    "slick-carousel": "^1.8.1",
+    "tiny-slider-react": "^0.5.3"
+  }
+}
